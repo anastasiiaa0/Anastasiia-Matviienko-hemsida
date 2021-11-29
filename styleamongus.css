@@ -1,0 +1,13 @@
+body {
+  background: #ece7e7;
+  max-width: 1000px;
+  margin: 30px;
+  padding: 1px auto;
+  display: inline-block;
+  flex-direction: column;
+  flex: auto;
+}
+
+h1 {
+  color: #030202;
+}
