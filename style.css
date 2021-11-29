@@ -1,10 +1,11 @@
 body {
   background: #eae7d7;
   max-width: 1200px;
-  margin: 10px auto;
-  padding: 10px;
-  display: flex;
+  margin: 2px auto;
+  padding: 17px;
+  display: inline-block;
   flex-direction: column;
+  flex: auto;
 }
 h1 {
   color: #291c14;
@@ -15,9 +16,18 @@ h1 {
 p {
   font: italic;
 }
-h2 {
-  color: #291c14;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  border-bottom: 0px;
+.rubrik {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.rubrik1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.flex-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
